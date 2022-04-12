@@ -105,12 +105,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22F9534327AF34C200729BF5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2601AF622721D0BF00D999EF /* InfiniLink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfiniLink.xcdatamodel; sourceTree = "<group>"; };
 		2601AF6627220CED00D999EF /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		2601AF692722110700D999EF /* StepProgressGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressGauge.swift; sourceTree = "<group>"; };
 		2617EF36270364CE00FE6F48 /* ChartViewSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewSelector.swift; sourceTree = "<group>"; };
 		2617EF3827036C9B00FE6F48 /* WhatsNewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewSheet.swift; sourceTree = "<group>"; };
 		2617EF3C27036DC600FE6F48 /* WhatsNewBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewBody.swift; sourceTree = "<group>"; };
+		26314679280353540025185D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2632388326F2531C00D72B43 /* DFUWithBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFUWithBLE.swift; sourceTree = "<group>"; };
 		2632388526F2548600D72B43 /* DFUWithoutBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFUWithoutBLE.swift; sourceTree = "<group>"; };
 		2632388726F2576D00D72B43 /* DFUFileSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFUFileSelectButton.swift; sourceTree = "<group>"; };
@@ -587,8 +589,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				ru,
+				fr,
+				Base,
+				ko,
 			);
 			mainGroup = 264BFE3526BC51CE0050A223;
 			packageReferences = (
@@ -749,6 +753,8 @@
 			children = (
 				F9A88B652765357600B2B94C /* en */,
 				F99B8DCC276778FF0096A84D /* ru */,
+				22F9534327AF34C200729BF5 /* fr */,
+				26314679280353540025185D /* ko */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -760,6 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -821,6 +828,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -879,9 +887,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InfiniLink/Preview Content\"";
-				DEVELOPMENT_TEAM = R8KN8N4CWQ;
+				DEVELOPMENT_TEAM = 99BHY6DC82;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = InfiniLink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -889,8 +897,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.atsygankov.Infini-iOS";
+				MARKETING_VERSION = 0.9.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexemry.Infini-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -904,9 +912,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InfiniLink/Preview Content\"";
-				DEVELOPMENT_TEAM = R8KN8N4CWQ;
+				DEVELOPMENT_TEAM = 99BHY6DC82;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = InfiniLink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -914,8 +922,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.9.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.atsygankov.Infini-iOS";
+				MARKETING_VERSION = 0.9.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexemry.Infini-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
